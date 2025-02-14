@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Processar Vídeo</title>
+</head>
+<body>
+  <div id="container">
+    <h1>🎥 Processar Vídeo</h1>
+    <input type="text" id="video-url" placeholder="Digite a URL do vídeo" />
+    <select id="language">
+      <option value="en">Inglês</option>
+      <option value="pt">Português</option>
+    </select>
+    <button id="process-button">Processar</button>
+    <div id="response"></div>
+    <div id="spinner" class="spinner" style="display: none;"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

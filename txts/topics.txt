@@ -1,0 +1,13 @@
+1. Introdução à Linguagem de Programação Java: O vídeo começa com uma introdução à linguagem de programação Java, explicando como ela permite que os humanos se comuniquem com os computadores através de um conjunto de palavras-chave e símbolos.
+
+2. Ambiente de Programação: O apresentador mostra o ambiente de programação, como o Eclipse ou o Intellij, e explica como configurar um projeto Java e criar uma classe Java.
+
+3. Variáveis e Tipos de Dados: O vídeo explica os tipos de dados primitivos em Java, como int, char, long e double, e como armazenar dados usando variáveis. Também introduz o conceito de tipos de dados não primitivos, como String.
+
+4. Objetos e Classes: O apresentador explica que uma classe Java é um arquivo Java que ajuda a criar objetos. Ele demonstra como criar um objeto e acessar seus métodos usando o operador de ponto.
+
+5. Métodos: O vídeo destaca a importância dos métodos em Java, que são pedaços de código reutilizáveis que podem realizar tarefas específicas. Ele mostra como criar e chamar métodos, incluindo métodos de outras classes.
+
+6. Lógica e Estruturas de Controle: O apresentador aborda estruturas de controle em Java, como if-else, for loops e while loops, que permitem a execução condicional e repetitiva de código.
+
+7. APIs e Integração com Outros Softwares: O vídeo menciona a capacidade de usar APIs (Application Programming Interfaces) para integrar código de outros
