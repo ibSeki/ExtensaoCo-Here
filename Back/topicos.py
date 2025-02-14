@@ -1,8 +1,12 @@
+from dotenv import load_dotenv
+import os
+load_dotenv()
+
 import cohere
 import os
 
 # Configure sua chave da API Co:here
-COHERE_API_KEY = "RWZ91Kp3nRvdnU1yi2tBG19Dj04xKMDq06NT2pDk"
+COHERE_API_KEY = os.getenv("API_KEY_TOPICOS")
 co = cohere.Client(COHERE_API_KEY)
 
 def extract_topics_with_cohere(transcription):

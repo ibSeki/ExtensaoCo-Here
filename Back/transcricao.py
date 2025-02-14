@@ -1,9 +1,13 @@
+from dotenv import load_dotenv
+import os
+load_dotenv()
+
 import os
 import subprocess
 import requests
 
 # Configure sua chave da API AssemblyAI
-ASSEMBLYAI_API_KEY = "b26a0835705c43f08129a47126e7238b"
+ASSEMBLYAI_API_KEY = os.getenv("API_KEY_TRANSCRICAO")
 ASSEMBLYAI_API_URL = "https://api.assemblyai.com/v2"
 
 headers_assemblyai = {
