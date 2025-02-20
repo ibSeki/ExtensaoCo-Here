@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from transcricao import download_audio_from_youtube, upload_audio, transcribe_audio, delete_audio_file
-from topicos import extract_topics_with_cohere
+from topicos import extract_topics_with_gemini
 
 app = Flask(__name__)
 
@@ -28,7 +28,7 @@ def process_video():
         delete_audio_file(audio_file)
         return jsonify({"error": "Erro ao transcrever o áudio."}), 500
 
-    topics = extract_topics_with_cohere(transcription)
+    topics = extract_topics_with_gemini(transcription)
     delete_audio_file(audio_file)
 
     if not topics:
